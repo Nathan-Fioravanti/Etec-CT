@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário madeira</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <h1>Cadastro do produto</h1>
+    <form action="">
+       <fieldset class="borda">
+           <div>
+               <label for="id" class="id">id:</label>
+               <input type="text" class="fundo-form">
+               <br>
+               <label for="nome" class="nome">Nome:</label>
+               <input type="text"  class="fundo-form">
+               <br>
+               <label for="tipo" class="tipo">Tipo:</label>
+               <select name="tipo"  class="fundo-form">
+                   <option value="binus">binus</option>
+                   <option value="goiabao">goiabão</option>
+                   <option value="eucalipto">eucalipto</option>
+               </select>
+               <br>
+               <label for="preço A" class="preco-a">Preço de aquisição:</label>
+               <input type="text"  class="fundo-form">
+               <br>
+               <label for="preço V" class="preco-v">Preço de venda:</label>
+               <input type="text"  class="fundo-form">
+               <br>
+               <label for="validade" class="validade">Validade:</label>
+               <input type="date"  class="fundo-form">
+               <br>
+               <label for="descrição" class="descricao">Descrição:</label>
+               <input type="text" class="fundo-form" id="oi">
+               <br>
+               <button type="submit">enviar</button>
+               
+               <button type="reset">limpar</button>
+           </div>
+       </fieldset>
+   </form>
+   <a href="http://127.0.0.1:5500/index.html">voltar</a>
+</body>
+</html>

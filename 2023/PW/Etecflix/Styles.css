@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    height: 120vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.video {
+    position: absolute;
+    height: 100vh;
+}
+.video:hover {
+    opacity: 0.0;
+    transition: 4s;
+}
+
+.rolagem {
+    height: 250px;
+    width: 86%;
+    position: relative;
+}
+.rolagem
+.rolagem {
+    color: #fff;
+    font-weight: bold;
+    height: 100%;
+    width: 45px;
+    line-height: 250px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #90EE90;
+    font-family: sans-serif;
+}
+.rolagembox {
+    height: 250px;
+    width: auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10px; 
+    display: flex;
+    align-items: center;
+}
+.rolagembox img {
+    min-width: 150px;
+    min-height: 150px;
+    height: 200px;
+    background-color: #FF7F50;
+    margin: 5px 10px;
+    cursor: pointer;
+    transition: 5s ease;
+    z-index: 2;
+}
+.rolagembox img:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    transition: 2s;
+   
+}

@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-frutas-e-legumes_23-2148497857.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: 100%;
+}
+@media (max-width: 650px) {
+    .links, .links-chocolate, .links-manga, .links-uva{
+        min-width: 216px;
+    }
+   
+    .ingredientes{
+        font-size: 10px;
+    }
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2cgEJbuCFH5ovZ33mGaNcHjKyWj8r4erUqg&usqp=CAU);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;    
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+
+    .cabeçalho-chocolate{
+        width: 650px;
+        font-size: 25px;
+    }
+}
+@media (max-width: 400px){
+    .ingredientes {
+        font-size: 10px;
+    }
+    .links, .links-chocolate, .links-manga, .links-uva {
+        min-width: 200px;
+    }
+    .cabeçalho-morango, .cabeçalho-manga, .cabeçalho-uva {
+        width: 400px;
+        max-height: 40px;
+        font-size: 23px;
+    }
+    .cabeçalho-chocolate{
+        max-height: 50px;
+        font-size: 20px;
+        text-align: left;
+        width: 410px;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+}
+
+
+/* ingredientes */
+
+.ingredientes {  
+    text-align: center;
+    font-weight: bold;
+ }
+
+/* morango */
+.cabeçalho-morango {
+    background-color: rgb(255, 83, 83);
+    border-bottom: 2px solid rgb(150, 0, 0);
+    border: 5px solid #FA8072;
+    height: 65px;
+    text-align: center;
+    color: #fff;
+}
+#cabeçalho2 {
+    display: flex;
+}
+
+.links {
+    display: block;
+    border-radius: 10px solid rgb(255, 83, 83);
+    border: 5px solid #FA8072;
+    width: 170px;
+    background-color: rgb(255, 83, 83);
+    color: #eee;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 25px;
+    height: 80px;
+     text-decoration: none;
+}
+
+.links:hover {
+    background-color: #FF0000;
+    transition: 5s;
+}
+
+/* manga */
+.cabeçalho-manga {
+    background-color: #FFD700;
+    border: 5px solid #FFFF00;
+    height: 65px;
+    text-align: center;
+    color: #fff;
+}
+.cabeçalho2-manga {
+    display: flex;
+}
+
+.links-manga {
+    display: block ;
+    border: 5px solid #FFFF00;
+    width: 170px;
+    background-color: #FFD700;
+    color: #eee;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 25px;
+    height: 80px;
+    text-decoration: none;
+}
+
+.links-manga:hover {
+    background-color: #FFA500;
+    transition: 5s;
+}
+
+/* chocolate */
+.cabeçalho-chocolate {
+    background-color: #8B0000;
+    border: 5px solid #B22222;
+    height: 65px;
+    text-align: center;
+    color: #fff;
+}
+.cabeçalho2-chocolate {
+    display: flex;
+}
+
+.links-chocolate {
+    display: block ;
+    border: 5px solid #B22222;
+    width: 170px;
+    background-color: #8B0000;
+    color: #eee;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 25px;
+    height: 80px;
+    text-decoration: none;
+}
+
+.links-chocolate:hover {
+    background-color: #A52A2A;
+    transition: 5s;
+}
+
+/* Uva */
+.cabeçalho-uva {
+    background-color: #4B0082;
+    border: 5px solid #9400D3;
+    height: 65px;
+    text-align: center;
+    color: #fff;
+}
+.cabeçalho2-uva {
+    display: flex;
+}
+
+.links-uva {
+    display: block ;
+    border: 5px solid #9400D3;
+    width: 170px;
+    background-color: #4B0082;
+    color: #eee;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 25px;
+    height: 80px;
+    text-decoration: none;
+}
+
+.links-uva:hover {
+    background-color: #DA70D6	;
+    transition: 5s;
+}
+
+

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 1em;
+    margin-left: 10%;
+    background-color: #ffff00;
+    margin-right: 60%;
+}
+
+body {
+    background-color: #00CED1;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #000;
+    margin-left: 30%;
+    margin-top: 2%;
+    justify-content: center;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/t2/7553752-formulario-de-credito-ou-emprestimo-rejeitado-e-aprovado-com-prancheta-e-formulario-de-reivindicacao-nele-vetor.jpg);
+}
+
+fieldset{
+    border: 0;
+}
+
+input {
+    width: 600px;
+    margin-top: 2%;
+    margin-bottom: 2em;
+    background-color: #7FFFD4;
+}
+
+select{
+    margin-bottom: 2em;
+    background-color: #7FFFD4;
+}
+
+
+
+button{
+    width: 100px;
+    height: 50px;
+    margin-top: 2%;
+}
+
+a {
+    color: #000;
+    background-color: #708090;
+    margin-left: 90%;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #0000CD;
+}
+
+.borda {
+    width: 30px;
+    background-color: #00BFFF;
+}
+
+.id {
+    font-weight: bold;
+}
+
+.tipo {
+    padding: 30px;
+    font-weight: bold;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.descricao {
+    font-weight: bold;
+    height: 300px
+}
+
+.preco-a {
+    font-weight: bold;
+}
+
+.preco-v {
+    font-weight: bold;
+}
+
+.validade {
+    font-weight: bold;
+}
+
+.fundo-form {
+    background-color: #7FFFD4;
+    
+    
+}
+
+#oi {
+    text-align: left;
+    padding-bottom: 300px;
+}

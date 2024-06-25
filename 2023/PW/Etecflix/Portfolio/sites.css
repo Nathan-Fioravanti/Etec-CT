@@ -1,0 +1,55 @@
+.sites {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    padding: 10px;
+    overflow-x: 20px;
+    text-align: center;
+}
+.musica {
+    background-color: #228B22		;
+    padding: 25px;
+    width: 250px;
+    font-weight: bold;
+    height: 350px;
+}
+.musica:hover {
+    opacity: 0.7;
+    transition: 2s;
+}
+.construcao {
+    background-color: #3CB371	;
+    padding: 25px;
+    width: 250px;
+    margin-left: 60px;
+    height: 350px;
+    font-weight: bold;
+}
+.construcao:hover {
+    opacity: 0.7;
+    transition: 2s;
+}
+.receitas {
+    background-color: #90EE90	;
+    padding: 25px;
+    width: 250px;
+    margin-left: 60px;
+    font-weight: bold;
+    height: 350px;
+}
+.receitas:hover {
+    opacity: 0.7;
+    transition: 2s;
+}
+.series {
+    background-color: #98FB98		;
+    padding: 25px;
+    width: 250px;
+    margin-left: 60px;
+    font-weight: bold;
+    height: 350px;
+}
+.series:hover {
+    opacity: 0.7;
+    transition: 2s;
+}

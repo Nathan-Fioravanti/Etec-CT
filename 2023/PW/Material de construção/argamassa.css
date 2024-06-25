@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://blog.tocaobra.com.br/wp-content/uploads/2020/03/PAREDE2.png);
+}
+
+h1 {
+    background-color: #ffff00;
+    margin-right: 32%;
+    margin-left: 34%;
+    text-align: center;
+}
+
+.container{
+    border: 2px solid #ff0000ff;
+    background-color: #000;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 50% 750px;
+}
+
+.container div{
+    border: 2px solid #00ffff;
+    background-color: #ff0000ff;
+    padding: 20px;
+}
+
+table, td, th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    height: 40px;
+    width: 1500px;
+    background-color: #ffffff;
+    margin-bottom: 24em;
+}
+
+td, th{
+    font-size: 20px;
+}
+
+a {
+    color: #000;
+    font-size: 50px;
+}
+
+a:hover{
+    color: #ffff00;
+}

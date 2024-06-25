@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/fundo-de-frutas_501761-2569.jpg?w=360);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: 100%;
+    background-size: cover;
+}
+@media (max-width: 650px){
+        .morango{
+            max-height: 200px;
+            max-width: 200px;
+        }
+        .manga{
+            max-height: 200px;
+            max-width: 200px;
+        }
+        .coco{
+            max-height: 200px;
+            max-width: 200px;
+        }
+        .uva{
+            max-height: 200px;
+            max-width: 200px;
+        }
+        
+}
+
+@media (max-width: 400px){
+    .morango{
+        max-height: 110px;
+        max-width: 110px;
+    }
+    .manga{
+        max-height: 110px;
+        max-width: 110px;
+    }
+    .coco{
+        max-height: 110px;
+        max-width: 110px;
+    }
+    .uva{
+        max-height: 110px;
+        max-width: 110px;
+    }
+    header {
+        max-width: 400px;
+    }
+    
+}
+
+/* cabeçalho */
+header {
+    background-color: rgb(255, 83, 83);
+    border-bottom: 2px solid rgb(150, 0, 0);
+    border: 5px solid #FA8072;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    padding: 25px;
+}
+.cadastrar {
+    display: block ;
+    border-radius: 10px solid rgb(255, 83, 83);
+    border: 5px solid #FA8072;
+    width: 200px;
+    background-color: rgb(255, 83, 83);
+    color: #eee;
+}
+
+.cadastrar:hover {
+    background-color: #FF0000 ;
+    transition: 5s;
+}
+.btn-1 {
+    text-decoration: none;
+    color: #eee;
+
+}
+/* grid */
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/* imagens */
+.morango {
+    height: 400px;
+    margin: 50px;
+    width: 400px;
+    opacity: 0.5;
+}
+.manga {
+    height: 400px;
+    margin: 50px;
+    width: 400px;
+    opacity: 0.5;
+}
+.coco {
+    height: 400px;
+    margin: 50px;
+    width: 400px;
+    opacity: 0.5;
+}
+.uva {
+    height: 400px;
+    margin: 50px;
+    width: 400px;
+    opacity: 0.5;
+}
+#imagem:hover {
+    transform: scale(1.10, 1.10);
+    transition: 2.5s;
+    opacity: 1.0;
+ }
+
+/* receitas */
+
+/* cabeçalho */
+.cabeçalho {
+    background-color: rgb(255, 83, 83);
+    border-bottom: 2px solid rgb(150, 0, 0);
+    border: 5px solid #FA8072;
+    height: 65px;
+    text-align: center;
+    color: #fff;
+}
+.cabeçalho2 {
+    display: flex;
+}
+
+.links {
+    display: block ;
+    border-radius: 10px solid rgb(255, 83, 83);
+    border: 5px solid #FA8072;
+    width: 170px;
+    background-color: rgb(255, 83, 83);
+    color: #eee;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 25px;
+    height: 80px;
+}
+
+.links:hover {
+    background-color: #FF0000;
+    transition: 5s;
+}
+/* ingredientes */
+
+.ingredientes {
+    
+   text-align: center;
+   font-weight: bold;
+   
+   
+}

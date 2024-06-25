@@ -1,0 +1,33 @@
+.img-musica {
+    width: 150px;
+    height: 150px;
+    display: block;
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.img-construcao {
+    width: 150px;
+    height: 150px;
+    display: block;
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.img-receitas {
+    width: 150px;
+    height: 150px;
+    display: block;
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+.img-series {
+    width: 150px;
+    height: 150px;
+    display: block;
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 50%;
+}

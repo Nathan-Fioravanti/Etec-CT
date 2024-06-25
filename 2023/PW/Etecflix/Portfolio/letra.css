@@ -1,0 +1,46 @@
+.letra {
+    font-size: 50px;
+    padding: 7px;
+    display: inline-block;
+    color: #7FFF00;
+    
+}
+.letra-1 {
+    font-size: 10px;
+    color: azure;
+}
+
+.letra-1:hover {
+    font-size: 25px;
+    transition: 5s;
+    font-weight: bold;
+    color: #7FFF00;
+    
+}
+.letra-2 {
+    
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.letra-3 {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.letra-4 {
+    padding: 25px;
+    font-weight: bold;
+}
+.letra-5 {
+    font-size: 50px;
+    padding: 5px;
+    margin-top: 150px;
+    margin-left: 15px;
+    color: #7CFC00;
+}
+.letra-6 {
+    font-family:  'Franklin Gothic Medium', 'Lucida Sans Regular';
+    color: #00FF00;
+}
+/*

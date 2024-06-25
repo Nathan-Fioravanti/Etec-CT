@@ -1,0 +1,15 @@
+.logo {
+    text-align: center;
+    margin-top: 2px;
+}
+.lançamento{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.lançamento:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    transition: 2s;
+} 

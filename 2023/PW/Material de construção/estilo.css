@@ -1,0 +1,57 @@
+body {
+ background-image: url(https://img.freepik.com/fotos-premium/material-de-fundo-de-textura-de-parede-de-tijolo-da-industria-de-construcao-civil_79075-1738.jpg);
+ 
+}
+
+
+h1 {
+    background-color: #ffff00;
+    margin-right: 32%;
+    margin-left: 34%;
+    text-align: center;
+}
+
+h2 {
+    background-color: #ffff00;
+    margin-right: 27%;
+    margin-left: 30%;
+}
+
+img {
+    margin-left: 30%;
+    opacity: 0.9; 
+    position: relative;
+    position: absolute;
+}
+
+img:hover {
+    opacity: 0.1; 
+    transition: 3s;
+}
+
+table, td, th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    height: 40px;
+    width: 1500px;
+    background-color: #ffffff;
+}
+
+td, th{
+    font-size: 20px;
+}
+
+a {
+    color: #000;
+}
+
+a:hover{
+    color: #0000ffff;
+    
+}
+
+#img2 {
+    width: 640px;
+    padding-bottom: 50px;
+}
+

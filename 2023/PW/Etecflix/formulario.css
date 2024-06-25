@@ -1,0 +1,37 @@
+.borda {
+    width: 150px;
+    background-color: #F0FFFF;
+}
+body {
+    background-color: #E0FFFF;
+}
+.receita {
+    height: 60px;
+}
+@media (max-width: 650px)
+{
+     body{
+        background-color: #ADFF2F;
+     }   
+     h1{
+        color: #00CED1;
+     }
+}
+@media (max-width: 400px){
+    .borda{
+        max-width: 40px;
+        max-height: 500px;
+    }
+    
+    textarea{
+        max-height: 200px;
+        max-width: 200px;
+        background-color: #7FFFD4;
+    }
+    body{
+        background-color: #FF7F50;
+    }
+    h1{
+        color: #A52A2A;
+    }
+}

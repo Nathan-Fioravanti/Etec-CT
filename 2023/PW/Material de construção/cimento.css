@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/1401908068/pt/vetorial/cement-bag-icon-cartoon-paper-pack-construction-material.jpg?s=1024x1024&w=is&k=20&c=2Q7MBBCvb6ux-PY5hnGULyuktbPkebOH52hizai1VOw=);
+}
+
+h1 {
+    background-color: #ffff00;
+    margin-right: 32%;
+    margin-left: 34%;
+    text-align: center;
+  
+}
+
+
+.container{
+    border: 2px solid #ff0000ff;
+    background-color: #000;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 50% 750px;
+}
+
+.container div{
+    border: 2px solid #00ffff;
+    background-color: #ff0000ff;
+    padding: 20px;
+}
+
+table, td, th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    height: 40px;
+    width: 1500px;
+    background-color: #ffffff;
+    margin-bottom: 26em;
+}
+
+td, th{
+    font-size: 20px;
+}
+
+a {
+    color: #000;
+    font-size: 50px;
+}
+
+a:hover{
+    color: #ffff00;
+}

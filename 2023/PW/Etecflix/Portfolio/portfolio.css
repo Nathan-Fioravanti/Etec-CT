@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     
+}
+/*https://galeria.people.com.br/noticia/20170727114353223.jpg*/
+body {
+    background-image: url(https://previews.123rf.com/images/maxkabakov/maxkabakov1611/maxkabakov161100217/64946704-conceito-de-software-%C3%ADcone-de-programador-brilhante-no-grunge-quarto-escuro-com-piso-sujo-fundo.jpg);
+    background-repeat: no-repeat;
+    position: 100%;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+.eu-mesmo {
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 50%;
+}
+.clique {
+    padding: 50px;
+    
+}
