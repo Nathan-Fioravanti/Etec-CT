@@ -25,7 +25,7 @@ public class Conteudo {
         this.titulo = titulo;
     }
  
-    // Método descricao
+    
     public void descricao() {
         System.out.println("Categoria: " + categoria + ", Título: " + titulo);
     }
