@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://s3-alpha-sig.figma.com/img/8347/1838/a26d7719c5c47b11fdcf2696257eb3cf?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gS7EL1ft33c2zJz28Rmao-2MDVkPLEww7UxJXQfQ2W6pAXoOOrx6fLllzbYrQ~OPn8GAzo6ZAJY-ZzA8M6sMgr~UOQac9oMNFFb36K3iKp14vncLbiTYGmY35SdSaMV5QN~RAgeYAYZ13xm5RL2Aaj7zwPQOUPo3MfcHV2dsckHdttpq4q9W98xZdLKSwMsa-EPSiF9QRJ9LM5Z6r5jTawiy3KBnQMwsiPSdZNYvbGfkGmO4GoIiENvVvG~amYsimfZywTLqEKzuxEl4~S-lLBIl5CMdbRepZsgclY4VnNGp~BewBntfuhGQRjgAYPqpa3O1qVs-kiDrTzwkUSSasA__);
+}
+
+header{
+    background-color: #DC143C;
+    height: 100px;
+}
+#textoHall {
+    margin-right: 800px;
+}
+
+header div h1{
+    text-align: center;
+    padding: 10px;
+}

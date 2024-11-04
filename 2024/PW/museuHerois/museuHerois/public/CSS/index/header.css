@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #DC143C;
+    height: 70px;
+}
+
+header div h1{
+    text-align: center;
+    padding: 10px;
+}
+img {
+    width: 100%;
+}

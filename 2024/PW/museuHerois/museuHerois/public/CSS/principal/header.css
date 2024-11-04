@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("https://img.freepik.com/vetores-premium/fundo-de-meio-tom-de-super-heroi-com-design-de-quadrinhos-quadrado-relampago-com-flash-amarelo-vetor-gratis_499431-1415.jpg");
+}
+
+header{
+    background-color: #DC143C;
+    height: 120px;
+}
+
+header div h1{
+    text-align: center;
+    padding: 10px;
+}
