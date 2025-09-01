@@ -3,7 +3,6 @@ const {Titular} = require('../model/Titular.js')
 Titular.gerarTitulares();
 var titulares = Titular.titulares;
  
-// buscarTitulares
 test('Testar tamanho da lista de titulares', function(){
     expect(titulares.length).toBe(20)
 })
@@ -25,4 +24,5 @@ test('Testar os valores do primeiro titular', function(){
     expect(titulares[0]).toHaveProperty('email', 'quebrado@gmail.com')
     expect(titulares[0]).toHaveProperty('dataNasc', '29.08.1963' )
 })
+
  
