@@ -5,7 +5,7 @@ describe('Conta (classe base)', () => {
   let conta;
  
   beforeEach(() => {
-    conta = new Conta('001', '1234', 'senha123', 1000); // exemplo de construtor
+    conta = new Conta('001', '1234', 'senha123', 1000); 
   });
  
   test('autentica com dados corretos', () => {
@@ -35,4 +35,5 @@ describe('Conta (classe base)', () => {
     conta.depositar('001', '1234', 'senha123', 500);
     expect(conta.consultarSaldo('001', '1234', 'senha123')).toBe(1500);
   });
+
 });
